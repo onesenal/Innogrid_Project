@@ -12,7 +12,7 @@ node {
 		-o "./report/" 
 		--prettyPrint
 		--disableYarnAudit
-		--exclude .pom.xml''', odcInstallation: 'OWASP Dependency-check'
+		--exclude *''', odcInstallation: 'OWASP Dependency-check'
 		dependencyCheckPublisher pattern: 'report/dependency-check-report.xml'
      }
      stage('SonarQube analysis') {

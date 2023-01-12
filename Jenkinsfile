@@ -12,7 +12,7 @@ node {
 		-o "./report/" 
 		--prettyPrint
 		--disableYarnAudit
-		--exclude dvja/pom.xml ''', odcInstallation: 'OWASP Dependency-check'
+		--exclude /var/lib/jenkins/workspace/testsd/target/* ''', odcInstallation: 'OWASP Dependency-check'
 		dependencyCheckPublisher pattern: 'report/dependency-check-report.xml'
      }
      stage('SonarQube analysis') {

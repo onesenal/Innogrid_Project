@@ -21,13 +21,8 @@ node {
 		-Dsonar.host.url=http://192.168.160.234:9000 \
 		-Dsonar.login=1089bf1c1f3fd28c831ce744752e9f0a1124a5d6 \
 		-Dsonar.sources=. \
-        -Dsonar.exclusions=./dist/ **/*,./reports/*,./coverage/** /* \
-        -Dsonar.dependencyCheck.severity.blocker=9.0 \
-        -Dsonar.dependencyCheck.severity.critical=7.0 \
-        -Dsonar.dependencyCheck.severity.major=4.0 \
-        -Dsonar.dependencyCheck.severity.minor=0.0 \
-		-Dsonar.dependencyCheck.jsonReportPath=reports/dependency-check-report.json \
-        -Dsonar.dependencyCheck.htmlReportPath=reports/dependency-check-report.html \
+        -Dsonar.exclusions=./report/** /* \
+		-Dsonar.dependencyCheck.htmlReportPath=./report/dependency-check-report.html"
          }
      }
         stage('SonarQube Quality Gate'){

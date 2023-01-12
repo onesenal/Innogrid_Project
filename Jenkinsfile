@@ -21,10 +21,12 @@ node {
 		-Dsonar.host.url=http://192.168.160.234:9000 \
 		-Dsonar.login=1089bf1c1f3fd28c831ce744752e9f0a1124a5d6 \
 		-Dsonar.sources=. \
-        -Dsonar.exclusions=./report/** /* \
+		-Dsonar.report.export.path=sonar-report.json \
+		-Dsonar.exclusions=**/*dependency-check* \
 		-Dsonar.dependencyCheck.jsonReportPath=./report/dependency-check-report.json \
 		-Dsonar.dependencyCheck.xmlReportPath=./report/dependency-check-report.xml \
 		-Dsonar.dependencyCheck.htmlReportPath=./report/dependency-check-report.html"
+         }
      }
         stage('SonarQube Quality Gate'){
     	 timeout(time: 1, unit: 'HOURS') {
@@ -40,4 +42,3 @@ node {
 	 app.push("latest")
          }
      } */
-}

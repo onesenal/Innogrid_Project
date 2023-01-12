@@ -2,9 +2,9 @@ node {
      stage('Clone repository') {
          checkout scm
      }
-     /*stage('Build image') {
-         app = docker.build("bart09/test", "--network host -f Dockerfile .")
-     }*/
+     stage('Build image') {
+         app = docker.build("onesenal/Innogrid_Project", "--network host -f Dockerfile .")
+     }
      stage('OWASP Dependency-Check Vulnerabilities ') {
         dependencyCheck additionalArguments: '''
 		-s "." 
@@ -16,6 +16,7 @@ node {
      }
      stage('SonarQube analysis') {
             withSonarQubeEnv('sonarserver'){
+                    sh "mvn clean package"
                     sh "mvn sonar:sonar \
 		-Dsonar.projectKey=sonarqube \
 		-Dsonar.host.url=http://192.168.160.234:9000 \
@@ -32,18 +33,16 @@ node {
      }
         stage('SonarQube Quality Gate'){
     	 timeout(time: 1, unit: 'HOURS') {
-              def qg = waitForQualityGate()
-              if (qg.status != 'OK') {
-                  error "Pipeline aborted due to quality gate failure: ${qg.status}"
+              waitForQualityGate abortPipeline: true
               }
           
           }
      }
 
-     /* stage('Push image') {
+     stage('Push image') {
          docker.withRegistry('https://registry.hub.docker.com', 'docker-hub') {
              app.push("$BUILD_NUMBER")
 	 app.push("latest")
          }
-     } */
+     }
 }

@@ -2,9 +2,9 @@ node {
      stage('Clone repository') {
          checkout scm
      }
-     stage('Build image') {
+     /* stage('Build image') {
          app = docker.build("onesenal/Innogrid_Project", "--network host -f Dockerfile .")
-     }
+     } */
      stage('OWASP Dependency-Check Vulnerabilities ') {
         dependencyCheck additionalArguments: '''
 		-s "." 
@@ -39,10 +39,10 @@ node {
           }
      }
 
-     stage('Push image') {
+     /* stage('Push image') {
          docker.withRegistry('https://registry.hub.docker.com', 'docker-hub') {
              app.push("$BUILD_NUMBER")
 	 app.push("latest")
          }
-     }
+     } */
 }

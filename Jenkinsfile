@@ -22,7 +22,6 @@ node {
 		-Dsonar.login=1089bf1c1f3fd28c831ce744752e9f0a1124a5d6 \
 		-Dsonar.sources=. \
         -Dsonar.exclusions=./report/** \
-		-Dsonar.report.export.path=sonar-report.json \
 		-Dsonar.dependencyCheck.htmlReportPath=./report/dependency-check-report.html"
          }
      }

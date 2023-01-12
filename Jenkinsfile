@@ -40,3 +40,4 @@ node {
 	 app.push("latest")
          }
      } */
+}

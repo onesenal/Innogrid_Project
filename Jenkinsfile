@@ -9,8 +9,7 @@ node {
         dependencyCheck additionalArguments: '''
 		-s "." 
 		-f "ALL"
-		-o "./report/"
-		--exclude 'pom.xml'
+		-o "report/"
 		--prettyPrint
 		--disableYarnAudit''', odcInstallation: 'OWASP Dependency-check'
 		dependencyCheckPublisher pattern: 'report/dependency-check-report.xml'

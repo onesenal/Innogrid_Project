@@ -1,10 +1,29 @@
 node {
+	
+     def app
+     def dockerfile
+     def anchorefile
+     def imageLine = 'hellonode'
+     def repotag
+
      stage('Clone repository') {
          checkout scm
      }
      /* stage('Build image') {
          app = docker.build("onesenal/Innogrid_Project", "--network host -f Dockerfile .")
      } */
+         echo "image built succeffully" 
+    }
+   stage('Test image') {
+       
+      Analyze: {
+   
+          writeFile file: 'anchore_images', text: imageLine
+ 
+          anchore name: 'anchore_images'
+}
+}
+}	
      stage('OWASP Dependency-Check Vulnerabilities ') {
         dependencyCheck additionalArguments: '''
 		-s "." 

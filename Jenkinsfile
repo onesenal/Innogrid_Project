@@ -6,11 +6,10 @@ node {
          app = docker.build("onesenal/Innogrid_Project", "--network host -f Dockerfile .")
      } */
          echo "image built succeffully" 
-    }
-     stage('Anchore Analysis') {
-                sh 'echo "$REGISTRY:latest `pwd`/Dockerfile" > anchore_images'
-                anchore name: 'anchore_images'
-        }	
+     }
+     def imageLine = 'debian:latest'
+         writeFile file: 'anchore_images', text: imageLine
+         anchore name: 'anchore_images', engineCredentialsId: 'admin', bailOnFail: false
      stage('OWASP Dependency-Check Vulnerabilities ') {
         dependencyCheck additionalArguments: '''
 		-s "." 

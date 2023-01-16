@@ -1,11 +1,4 @@
 node {
-	
-     def app
-     def dockerfile
-     def anchorefile
-     def imageLine = 'hellonode'
-     def repotag
-
      stage('Clone repository') {
          checkout scm
      }

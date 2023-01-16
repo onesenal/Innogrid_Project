@@ -7,15 +7,12 @@ node {
      } */
          echo "image built succeffully" 
     }
-     stage('Test image') {
-       
-        Analyze: {
-   
-            writeFile file: 'anchore_images', text: imageLine
-   
-            anchore name: 'anchore_images'
-       	}
-     }	
+     stage('Anchore Analysis') {
+            steps {
+                sh 'echo "$REGISTRY:latest `pwd`/Dockerfile" > anchore_images'
+                anchore name: 'anchore_images'
+            }
+        }	
      stage('OWASP Dependency-Check Vulnerabilities ') {
         dependencyCheck additionalArguments: '''
 		-s "." 

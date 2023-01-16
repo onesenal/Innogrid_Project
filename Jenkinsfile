@@ -14,16 +14,15 @@ node {
      } */
          echo "image built succeffully" 
     }
-   stage('Test image') {
+     stage('Test image') {
        
-      Analyze: {
+        Analyze: {
    
-          writeFile file: 'anchore_images', text: imageLine
- 
-          anchore name: 'anchore_images'
-}
-}
-}	
+            writeFile file: 'anchore_images', text: imageLine
+   
+            anchore name: 'anchore_images'
+       	}
+     }	
      stage('OWASP Dependency-Check Vulnerabilities ') {
         dependencyCheck additionalArguments: '''
 		-s "." 

@@ -71,7 +71,7 @@ node {
 	      /*text: inputConfig['HarborRegistryHostname']*/
 	      text: "192.168.160.244" +  "/" + "test/test" + " " + dockerfile
         anchore name: anchorefile, \
-	      engineurl: inputConfig['http://192.168.160.244:8228/v1'], \
+	      engineurl: 'http://192.168.160.244:8228/v1', \
 	      engineCredentialsId: 'admin', \
 	      annotations: [[key: 'added-by', value: 'jenkins']], \
 	      forceAnalyze: true

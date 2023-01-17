@@ -73,7 +73,7 @@ node {
 	      engineurl: inputConfig['anchoreEngineUrl'], \
 	      engineCredentialsId: inputConfig['anchoreEngineCredentials'], \
 	      annotations: [[key: 'added-by', value: 'jenkins']], \
-	      force=True
+	      forceAnalyze: true
       }
     }
   } finally {

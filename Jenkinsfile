@@ -1,4 +1,3 @@
-node {
 /*node {
      stage('Clone repository') {
          checkout scm
@@ -83,6 +82,7 @@ node {
     }
   }
 }
+node {
      stage('OWASP Dependency-Check Vulnerabilities ') {
         dependencyCheck additionalArguments: '''
 		-s "." 

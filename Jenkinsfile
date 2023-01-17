@@ -82,7 +82,6 @@ node {
     }
   }
 }
-node {
      stage('OWASP Dependency-Check Vulnerabilities ') {
         dependencyCheck additionalArguments: '''
 		-s "." 
@@ -123,5 +122,4 @@ node {
 	 app.push("latest")
          }
      } */
-}
 	   

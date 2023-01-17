@@ -15,8 +15,8 @@ stage('Configure') {
 		     string(defaultValue: 'test/test', description: 'Name of the docker repository', name: 'dockerRepository', trim: true), \
 		     credentials(credentialType: 'com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl', defaultValue: 'harbor', description: 'Credentials for connecting to the docker registry', name: 'dockerCredentials', required: true), \
 		     string(defaultValue: 'http://192.168.160.244:8228/v1', description: 'Anchore Engine API endpoint', name: 'anchoreEngineUrl', trim: true), \
-		     credentials(credentialType: 'com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl', defaultValue: 'admin', description: 'Credentials for interacting with Anchore Engine', name: 'anchoreEngineCredentials', required: true)]
-	buildWithParameters
+		     credentials(credentialType: 'com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl', defaultValue: 'admin', description: 'Credentials for interacting with Anchore Engine', name: 'anchoreEngineCredentials', required: true)], \
+		     buildWithParameters
     for (config in inputConfig) {
         if (null == config.value || config.value.length() <= 0) {
           echo "${config.key} cannot be left blank"

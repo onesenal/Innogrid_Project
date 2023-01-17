@@ -6,8 +6,8 @@
          app = docker.build("onesenal/Innogrid_Project", "--network host -f Dockerfile .")
      }
          echo "image built succeffully" 
-     } */
-/*stage('Configure') {
+     }
+stage('Configure') {
     abort = false
     inputConfig = input id: 'InputConfig', message: 'Docker registry and Anchore Engine configuration', \
 	parameters: [string(defaultValue: 'https://192.168.160.244', description: 'URL of the Harbor registry for staging images before analysis', name: 'HarborRegistryUrl', trim: true), \

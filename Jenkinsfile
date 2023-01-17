@@ -56,7 +56,7 @@ node {
 	app.push("$BUILD_NUMBER")
 	app.push("latest")
       }
-      sh script: "Build completed"
+      sh script: "echo Build completed"
     }
 
     stage('Parallel') {

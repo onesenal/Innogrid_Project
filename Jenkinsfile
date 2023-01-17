@@ -49,10 +49,10 @@ node {
     stage('Build') {
       // Build the image and push it to a staging repository
       app = docker.build("test/test", "--network host -f Dockerfile .")
-#      repotag = inputConfig['dockerRepository'] + ":${BUILD_NUMBER}"
+/*      repotag = inputConfig['dockerRepository'] + ":${BUILD_NUMBER}"  */
       docker.withRegistry(inputConfig['HarborRegistryUrl'], inputConfig['dockerCredentials']) {
-#        app = docker.build(repotag)
-#        app.push()
+/*        app = docker.build(repotag)
+        app.push() */
 	app.push("$BUILD_NUMBER")
 	app.push("latest")
       }

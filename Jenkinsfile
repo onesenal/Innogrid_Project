@@ -73,7 +73,7 @@ node {
   } finally {
     stage('Cleanup') {
       // Delete the docker image and clean up any allotted resources
-      sh script: "Clean up"
+      sh script: "echo Clean up"
     }
   }
 }

@@ -66,7 +66,7 @@ node {
         }
       },
       Analyze: {
-        writeFile file: anchorefile, text: inputConfig['HarborRegistryHostname'] + "/" + repotag + " " + dockerfile
+        writeFile file: anchorefile, text: inputConfig['HarborRegistryHostname'] + "/test/test" + dockerfile
         anchore name: anchorefile, engineurl: inputConfig['anchoreEngineUrl'], engineCredentialsId: inputConfig['anchoreEngineCredentials'], annotations: [[key: 'added-by', value: 'jenkins']]
       }
     }

@@ -68,7 +68,7 @@ node {
       Analyze: {
         writeFile file: anchorefile, \
 	      /*text: inputConfig['HarborRegistryHostname']*/
-	      text: "192.168.160.244" +  "/" + "test/test" + " " + dockerfile
+	      text: "192.168.160.244" +  "/" + "test/test" + " " + dockerfile, force=True
         anchore name: anchorefile, \
 	      engineurl: inputConfig['anchoreEngineUrl'], \
 	      engineCredentialsId: inputConfig['anchoreEngineCredentials'], \

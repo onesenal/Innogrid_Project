@@ -1,3 +1,4 @@
+node {
 /*node {
      stage('Clone repository') {
          checkout scm
@@ -122,3 +123,5 @@ node {
 	 app.push("latest")
          }
      } */
+}
+	   

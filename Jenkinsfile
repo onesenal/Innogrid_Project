@@ -51,7 +51,7 @@ node {
       app = docker.build("test/test", "--network host -f Dockerfile .")
 /*      repotag = inputConfig['dockerRepository'] + ":${BUILD_NUMBER}"  */
       docker.withRegistry(inputConfig['HarborRegistryUrl'], inputConfig['dockerCredentials']) {
-/*        app = docker.build(repotag)
+/*        app = docker.build(test/test)
         app.push() */
 	app.push("$BUILD_NUMBER")
 	app.push("latest")

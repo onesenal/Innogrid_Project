@@ -8,7 +8,7 @@
          echo "image built succeffully" 
      } */
 stage('Configure') {
-    abort = false
+    abort = true
     inputConfig = input id: 'InputConfig', message: 'Docker registry and Anchore Engine configuration', parameters: [string(defaultValue: 'http://192.168.160.244', description: 'URL of the Harbor registry for staging images before analysis', name: 'HarborRegistryUrl', trim: true), string(defaultValue: 'test', description: 'Hostname of the Harbor registry', name: 'HarborRegistryHostname', trim: true), string(defaultValue: '', description: 'Name of the docker repository', name: 'dockerRepository', trim: true), credentials(credentialType: 'com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl', defaultValue: '', description: 'Credentials for connecting to the docker registry', name: 'dockerCredentials', required: true), string(defaultValue: 'http://localhost:8228/v1/', description: 'Anchore Engine API endpoint', name: 'anchoreEngineUrl', trim: true), credentials(credentialType: 'com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl', defaultValue: '', description: 'Credentials for interacting with Anchore Engine', name: 'anchoreEngineCredentials', required: true)]
 
     for (config in inputConfig) {

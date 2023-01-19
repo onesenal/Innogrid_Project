@@ -132,6 +132,7 @@ node {
 	    -t TOHY-2gSbfRjq--f9hjDV-B55ymqMf5cw2u9smywDRePoF2ucpCNxmJg8_cU74of\
 	    --cicd_id=3582b517-dca0-4b50-884c-6a27188fc6b4\
 	    --project=f03337a6-3498-4512-b078-f9f072036244\
+	    --upload\
 	    --zap-base-line-scan\
 	    --report_path=/tmp/archerysec-scans-report'''
               }

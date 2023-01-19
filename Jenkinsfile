@@ -132,6 +132,6 @@ node {
 	    --cicd_id=3582b517-dca0-4b50-884c-6a27188fc6b4\
 	    --project=f03337a6-3498-4512-b078-f9f072036244\
 	    --zap-base-line-scan\
-	    --report_path=$(pwd)'''
+	    --report_path=/tmp/archerysec-scans-report/'''
               }
 }

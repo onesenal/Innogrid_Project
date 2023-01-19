@@ -134,6 +134,4 @@ node {
 	    --zap-base-line-scan\
 	    --report_path=$(pwd)'''
               }
-            }
-          }
 }

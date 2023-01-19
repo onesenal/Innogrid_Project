@@ -60,7 +60,7 @@ node {
       sh script: "echo Build completed"
     }
 
-    stage('Parallel') {
+    stage('Anchore Image Analyze') {
       parallel Test: {
         app.inside {
             sh 'echo "Dummy - tests passed"'

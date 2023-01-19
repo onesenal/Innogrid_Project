@@ -126,7 +126,6 @@ node {
     stage('OWASP ZAP') {
         sh '''
             pip install archerysec-cli --force  
-            mkdir /tmp/archerysec-scans-report
 	    archerysec-cli -h http://192.168.160.244:8000\
 	    -t TOHY-2gSbfRjq--f9hjDV-B55ymqMf5cw2u9smywDRePoF2ucpCNxmJg8_cU74of\
 	    --cicd_id=3582b517-dca0-4b50-884c-6a27188fc6b4\

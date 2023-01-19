@@ -126,7 +126,7 @@ node {
     stage('OWASP ZAP') {
         sh '''
             pip install archerysec-cli --force --no-warn-script-location
-	    sudo apt install python3-testresources
+	    apt install python3-testresources
 	    rm -rf /tmp/archerysec-scans-report
 	    mkdir /tmp/archerysec-scans-report
 	    archerysec-cli -h http://192.168.160.244:8000\

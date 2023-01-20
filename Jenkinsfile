@@ -26,13 +26,11 @@ node {
     stage('Anchore Image Analyze') {
       parallel Test: {
         app.inside {
-            sh 'echo "Dummy - tests passed"'
+          sh 'echo "Dummy - tests passed"'
         }
       },
       Analyze: {
-        writeFile file: anchorefile, \
-	      /*text: inputConfig['HarborRegistryHostname']*/
-	      text: "192.168.160.244" +  "/" + "test/test" + " " + dockerfile
+        writeFile file: anchorefile, text: "192.168.160.244/test/test" + ":${BUILD_NUMBER}" + " " + dockerfile
         anchore name: anchorefile, \
 	      engineurl: 'http://192.168.160.244:8228/v1', \
 	      engineCredentialsId: 'admin', \

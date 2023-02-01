@@ -1,1 +1,1 @@
-FROM lichen8905/mysite-job-extract-binance
+FROM sjin1105/django:latest

@@ -24,7 +24,7 @@ node {
     stage('SonarQube analysis') {
         def scannerHome = tool 'sonarqube';
         withSonarQubeEnv('sonarserver'){
-            sh "${scannerHome}/bin/sonar-scanner \
+	    sh "mvn sonar:sonar \
 	      -Dsonar.projectKey=sonarqube \
 	      -Dsonar.host.url=http://192.168.160.244:9000 \
 	      -Dsonar.login=807e0f2bc82e3c377436e2b6292ed7bc73b04e24 \

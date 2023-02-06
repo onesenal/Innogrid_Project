@@ -6,10 +6,11 @@
  
 ### Contents:
   - [Index](#Index)
-      - [Outline 💻](#Outline-)
-      - [Documents 🚀](#Documents-)
-      - [Process 🗒](#Process-)
-      - [Result 🗒](#Result-)
+      - [Outline](#Outline-)
+      - [Documents](#Documents-)
+      - [Process](#Process-)
+      - [Result](#Result-)
+      - [Feedback](#Feedback-)
 
 ## Index
 
@@ -24,6 +25,5 @@
 
 #### Result 🗒
 
-
- 
+#### Feedback 🗒
 

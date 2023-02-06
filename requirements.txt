@@ -1,0 +1,7 @@
+Django
+environs
+django-crontab
+gunicorn
+requests
+python-jenkins
+psycopg2-binary

@@ -5,16 +5,16 @@
  Kubernetes DevSecOps Toolchain Service | [Click](https://docs.google.com/document/d/1J8BytOKemftXYb__78tb3sMjvePZRvlattjNzb2GuOg/edit?usp=sharing) | [Click](https://www.notion.so/Main-Page-fe35c46b02d84682b73b5a394b44182f) | [Click](https://github.com/onesenal/Innogrid_Project.git) | 23.01.01~23.02.27(진행중)
  
 ### Contents:
-  - [Index](#Index)
-      - [Outline](#Outline-)
+  - [Outline](#Outline-)
+      - [Intro](#Intro-)
       - [Documents](#Documents-)
       - [Process](#Process-)
       - [Result](#Result-)
       - [Feedback](#Feedback-)
 
-## Index
+## Outline
 
-#### Outline
+#### Intro
 - 
 
 #### Documents

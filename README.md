@@ -24,6 +24,10 @@
 
 
 #### Result
+아래의 링크에서 결과물을 확인할 수 있습니다.
+- [홈페이지](http://innogrid.duckdns.org)
+- [모니터링](http://monitor.innogrid.duckdns.org)
+- [로깅](http://logging.innogrid.duckdns.org)
 
 #### Feedback
 

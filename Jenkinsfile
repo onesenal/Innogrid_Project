@@ -38,7 +38,7 @@ node {
     }
     stage('Build') {
       // Build the image and push it to a staging repository
-      app = docker.build("projects/$JOB_NAME", "--network host -f Dockerfile .")
+      app = docker.build("innogrid/$JOB_NAME", "--network host -f Dockerfile .")
 	  docker.withRegistry('https://192.168.160.229', 'harbor') {
 	    app.push("$BUILD_NUMBER")
 	    app.push("latest")

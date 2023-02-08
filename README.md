@@ -15,7 +15,8 @@
 ## Outline
 
 #### Intro
-Kubernetes DevSecOps Toolchain Service
+[프로젝트]
+<p>Kubernetes DevSecOps Toolchain Service
 <p>[배경]
 <p>사용자는 클릭 한 번만으로 보안 검사가 진행되고 개발환경을 구축해주는 시스템입니다.
 <p>사용자는 해당 시스템을 사용함으로써, 개발환경을 보다 빠르게 구성할 수 있고 보안상 결함과 취약성을 해소할 수 있습니다. 

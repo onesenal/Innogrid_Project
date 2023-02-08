@@ -46,7 +46,7 @@ node {
       sh script: "echo Build completed"
     }
     stage('Anchore Image Scan') {
-        writeFile file: anchorefile, text: "192.168.160.229/projects" + "/${JOB_NAME}" + ":${BUILD_NUMBER}" + " " + dockerfile
+        writeFile file: anchorefile, text: "192.168.160.229/innogrid" + "/${JOB_NAME}" + ":${BUILD_NUMBER}" + " " + dockerfile
         anchore name: anchorefile, \
 	      engineurl: 'http://192.168.160.229:8228/v1', \
 	      engineCredentialsId: 'admin', \

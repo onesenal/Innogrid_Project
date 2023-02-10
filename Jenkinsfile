@@ -39,14 +39,14 @@ node {
     stage('Build') {
       // Build the image and push it to a staging repository
       app = docker.build("innogrid/$JOB_NAME", "--network host -f Dockerfile .")
-	  docker.withRegistry('https://192.168.160.229', 'harbor') {
+	  docker.withRegistry('https://core.innogrid.duckdns.org', 'harbor') {
 	    app.push("$BUILD_NUMBER")
 	    app.push("latest")
       }
       sh script: "echo Build completed"
     }
     stage('Anchore Image Scan') {
-        writeFile file: anchorefile, text: "core.innogrid.duckdns.org/innogrid" + "/${JOB_NAME}" + ":${BUILD_NUMBER}" + " " + dockerfile
+        writeFile file: anchorefile, text: "http://core.innogrid.duckdns.org/innogrid" + "/${JOB_NAME}" + ":${BUILD_NUMBER}" + " " + dockerfile
         anchore name: anchorefile, \
 	      engineurl: 'http://192.168.160.244:8228/v1', \
 	      engineCredentialsId: 'admin', \

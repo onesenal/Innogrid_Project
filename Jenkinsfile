@@ -49,7 +49,7 @@ node {
         writeFile file: anchorefile, text: "http://core.innogrid.duckdns.org/innogrid" + "/${JOB_NAME}" + ":${BUILD_NUMBER}" + " " + dockerfile
         anchore name: anchorefile, \
 	      engineurl: 'http://192.168.160.244:8228/v1', \
-	      engineCredentialsId: 'admin', \
+	      engineCredentialsId: 'anchore', \
 	      annotations: [[key: 'added-by', value: 'jenkins']], \
 	      forceAnalyze: true
       }

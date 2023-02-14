@@ -26,15 +26,15 @@ Kubernetes DevSecOps Toolchain Service란?
 #### Process
 - 1주차 : 주제 선정
 - 2주차 : 
-- 3주차 :
+- 3주차 : 
 - 4주차 :
-- 5주차 : 중간발표
+- 5주차 : 중간발표(1/31)
 - 6주차 :
 - 7주차 :
 - 8주차 : 
-- 9주차 : 최종발표
+- 9주차 : 최종발표(2/27)
 
-#### Result
+#### Results
 아래의 링크에서 결과물을 확인할 수 있습니다.
 - [홈페이지](http://innogrid.duckdns.org)
 - [모니터링](http://monitor.innogrid.duckdns.org)

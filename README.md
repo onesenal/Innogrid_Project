@@ -27,7 +27,15 @@ Kubernetes DevSecOps Toolchain Service란?
 - [중간발표자료](https://docs.google.com/presentation/d/1x4Q1G8w-2wpBMtshDAtTIDW0fHK6rAvB/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true)
 
 #### Process
-
+- 1주차 : 주제 선정
+- 2주차 : 
+- 3주차 :
+- 4주차 :
+- 5주차 : 중간발표
+- 6주차 :
+- 7주차 :
+- 8주차 : 
+- 9주차 : 최종발표
 
 #### Result
 아래의 링크에서 결과물을 확인할 수 있습니다.

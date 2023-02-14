@@ -36,11 +36,15 @@ Kubernetes DevSecOps Toolchain Service란?
 - [2차 프로세스](https://docs.google.com/document/d/1xRl7jvD2D0YRw52dGKawLCe4UdmWvBEzkuReJnj1Ggs/edit?usp=sharing)
 - [3차 프로세스](https://docs.google.com/document/d/1cicCTDoU5wSGKNh2eQ3zqHwVIgsqgEEHqEGrbdELAQU/edit?usp=share_link)
 - [중간발표자료](https://docs.google.com/presentation/d/1x4Q1G8w-2wpBMtshDAtTIDW0fHK6rAvB/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true)
+- [시연영상]()
+- [기술문서](https://docs.google.com/document/d/1o6YaBrFl9ouEKxEBeTSaunQ44BkN39gFtcnx9rqwdEA/edit?usp=sharing)
+- [발표자료]()
 
 #### Results
 아래의 링크에서 결과물을 확인할 수 있습니다.
 - [홈페이지](http://innogrid.duckdns.org)
 - [모니터링](http://monitor.innogrid.duckdns.org)
 - [로깅](http://logging.innogrid.duckdns.org)
+- [발표영상]()
 
 #### Feedback

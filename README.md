@@ -19,7 +19,7 @@ Kubernetes DevSecOps Toolchain Service란?
   사용자는 해당 시스템을 사용함으로써, 개발환경을 보다 빠르게 구성할 수 있고 보안상 결함과 취약성을 해소할 수 있습니다. 
   따라서 업무 프로세스의 효율을 높일 수 있습니다. 
 ```
-##### Architecture
+#### Architecture
 ![](https://github.com/onesenal/Innogrid_Project/blob/main/Architecture01.png)
 
 #### Organization

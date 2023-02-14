@@ -19,8 +19,10 @@ Kubernetes DevSecOps Toolchain Service란?
   사용자는 해당 시스템을 사용함으로써, 개발환경을 보다 빠르게 구성할 수 있고 보안상 결함과 취약성을 해소할 수 있습니다. 
   따라서 업무 프로세스의 효율을 높일 수 있습니다. 
 ```
+
 #### Organization
-[![](https://drive.google.com/drive/folders/1iJnk1NWN4aBdt-64Utdtn-bMzqzOejzW)](https://drive.google.com/drive/folders/1iJnk1NWN4aBdt-64Utdtn-bMzqzOejzW)
+![](https://github.com/onesenal/Innogrid_Project/blob/main/%EC%A1%B0%EC%A7%81%EB%8F%84.PNG)
+
 #### Process
 !일정사진 추가
 기간 | 작업
@@ -35,30 +37,6 @@ Kubernetes DevSecOps Toolchain Service란?
 8주차  | 통합 테스트
 9주차  | 최종발표(2/27)
   
-#### Documents
-# Kubernetes DevSecOps Toolchain Service
-
- 프로젝트명 | 기술문서 | 발표자료 | Git Repository |프로젝트 기간 
-:-------------: | :-------------: | :-------------: | :-------------: | :-------------:
- Kubernetes DevSecOps Toolchain Service | [Click](https://docs.google.com/document/d/1o6YaBrFl9ouEKxEBeTSaunQ44BkN39gFtcnx9rqwdEA/edit?usp=sharing) | [Click](https://www.notion.so/Main-Page-fe35c46b02d84682b73b5a394b44182f) | [Click](https://github.com/onesenal/Innogrid_Project.git) | 23.01.01~23.02.27
-
-## Contents:
-  - [Intro](#Intro)
-  - [Organization](#Organization)
-  - [Process](#Process)
-  - [Documents](#Documents)
-  - [Result](#Result)
-  - [Feedback](#Feedback)
-
-#### Intro
-```sh
-Kubernetes DevSecOps Toolchain Service란?
-  사용자는 클릭 한 번만으로 보안 검사가 진행되고 개발환경을 구축해주는 시스템입니다. 
-  사용자는 해당 시스템을 사용함으로써, 개발환경을 보다 빠르게 구성할 수 있고 보안상 결함과 취약성을 해소할 수 있습니다. 
-  따라서 업무 프로세스의 효율을 높일 수 있습니다. 
-```
-#### Organization
-![](https://github.com/onesenal/Innogrid_Project/blob/main/%EC%A1%B0%EC%A7%81%EB%8F%84.PNG)
 
 #### Documents
 !일정사진 추가

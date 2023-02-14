@@ -6,6 +6,7 @@
 
 ## Contents:
   - [Intro](#Intro)
+  - [Organization](#Organization)
   - [Process](#Process)
   - [Documents](#Documents)
   - [Result](#Result)
@@ -18,8 +19,14 @@ Kubernetes DevSecOps Toolchain Service란?
   사용자는 해당 시스템을 사용함으로써, 개발환경을 보다 빠르게 구성할 수 있고 보안상 결함과 취약성을 해소할 수 있습니다. 
   따라서 업무 프로세스의 효율을 높일 수 있습니다. 
 ```
-
+#### Organization
+[![](https://drive.google.com/drive/folders/1iJnk1NWN4aBdt-64Utdtn-bMzqzOejzW)](https://drive.google.com/drive/folders/1iJnk1NWN4aBdt-64Utdtn-bMzqzOejzW)
 #### Process
+!일정사진 추가
+기간 | 작업
+:-------------: | :-------------:
+1주차  | 주제 선
+Content Cell  | Content Cell
   - 1주차 : 주제 선정
   - 2주차 : 1차 프로세스 및 단일 테스트
   - 3주차 : 2차 프로세스 및 단일 테스트

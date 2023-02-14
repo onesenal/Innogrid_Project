@@ -39,7 +39,6 @@ Kubernetes DevSecOps Toolchain Service란?
   
 
 #### Documents
-!일정사진 추가
 유형 | 파일 | 파일내용
 :-------------: | :-------------: | :-------------:
 이미지  | [구성도](https://drive.google.com/file/d/1Ze-LKVUij8m3b0f4SDvuXyMrpzjQ6pEk/view?usp=share_link) | 서비스 전체 구성도

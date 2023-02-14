@@ -7,10 +7,10 @@
 ## Contents:
   - [Outline](#Outline)
       - [Intro](#Intro)
-      - [Documents](#Documents-)
-      - [Process](#Process-)
-      - [Result](#Result-)
-      - [Feedback](#Feedback-)
+      - [Documents](#Documents)
+      - [Process](#Process)
+      - [Result](#Result)
+      - [Feedback](#Feedback)
 
 ## Outline
 

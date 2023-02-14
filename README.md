@@ -6,6 +6,7 @@
 
 ## Contents:
   - [Intro](#Intro)
+  - [Architecture](#Architecture)
   - [Organization](#Organization)
   - [Process](#Process)
   - [Documents](#Documents)

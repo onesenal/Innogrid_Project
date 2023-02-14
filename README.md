@@ -6,8 +6,8 @@
 
 ## Contents:
   - [Intro](#Intro)
-  - [Documents](#Documents)
   - [Process](#Process)
+  - [Documents](#Documents)
   - [Result](#Result)
   - [Feedback](#Feedback)
 
@@ -19,13 +19,6 @@ Kubernetes DevSecOps Toolchain Service란?
   따라서 업무 프로세스의 효율을 높일 수 있습니다. 
 ```
 
-#### Documents
-- [구성도](https://drive.google.com/file/d/1Ze-LKVUij8m3b0f4SDvuXyMrpzjQ6pEk/view?usp=share_link)
-- [1차 프로세스](https://docs.google.com/document/d/1l7MFdAAyGkWllzth7KHZe4zCoICNr3sdzxfmMvZzhYo/edit?usp=share_link)
-- [2차 프로세스](https://docs.google.com/document/d/1xRl7jvD2D0YRw52dGKawLCe4UdmWvBEzkuReJnj1Ggs/edit?usp=sharing)
-- [3차 프로세스](https://docs.google.com/document/d/1cicCTDoU5wSGKNh2eQ3zqHwVIgsqgEEHqEGrbdELAQU/edit?usp=share_link)
-- [중간발표자료](https://docs.google.com/presentation/d/1x4Q1G8w-2wpBMtshDAtTIDW0fHK6rAvB/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true)
-
 #### Process
   - 1주차 : 주제 선정
   - [2주차 : 1차 프로세스 및 단일 테스트](#1st)
@@ -36,6 +29,13 @@ Kubernetes DevSecOps Toolchain Service란?
   - 7주차 : 통합 테스트
   - 8주차 : 통합 테스트
   - 9주차 : 최종발표(2/27)
+  
+#### Documents
+- [구성도](https://drive.google.com/file/d/1Ze-LKVUij8m3b0f4SDvuXyMrpzjQ6pEk/view?usp=share_link)
+- [1차 프로세스](https://docs.google.com/document/d/1l7MFdAAyGkWllzth7KHZe4zCoICNr3sdzxfmMvZzhYo/edit?usp=share_link)
+- [2차 프로세스](https://docs.google.com/document/d/1xRl7jvD2D0YRw52dGKawLCe4UdmWvBEzkuReJnj1Ggs/edit?usp=sharing)
+- [3차 프로세스](https://docs.google.com/document/d/1cicCTDoU5wSGKNh2eQ3zqHwVIgsqgEEHqEGrbdELAQU/edit?usp=share_link)
+- [중간발표자료](https://docs.google.com/presentation/d/1x4Q1G8w-2wpBMtshDAtTIDW0fHK6rAvB/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true)
 
 #### Results
 아래의 링크에서 결과물을 확인할 수 있습니다.

@@ -21,9 +21,9 @@ Kubernetes DevSecOps Toolchain Service란?
 
 #### Process
   - 1주차 : 주제 선정
-  - [2주차 : 1차 프로세스 및 단일 테스트](#1차_프로세스)
-  - [3주차 : 2차 프로세스 및 단일 테스트](#2nd)
-  - [4주차 : 3차 프로세스 및 단일 테스트](#3rd)
+  - 2주차 : 1차 프로세스 및 단일 테스트
+  - 3주차 : 2차 프로세스 및 단일 테스트
+  - 4주차 : 3차 프로세스 및 단일 테스트
   - 5주차 : 중간발표(1/31)
   - 6주차 : 통합 테스트
   - 7주차 : 통합 테스트
@@ -32,7 +32,7 @@ Kubernetes DevSecOps Toolchain Service란?
   
 #### Documents
 - [구성도](https://drive.google.com/file/d/1Ze-LKVUij8m3b0f4SDvuXyMrpzjQ6pEk/view?usp=share_link)
-- [1차_프로세스](https://docs.google.com/document/d/1l7MFdAAyGkWllzth7KHZe4zCoICNr3sdzxfmMvZzhYo/edit?usp=share_link)
+- [1차 프로세스](https://docs.google.com/document/d/1l7MFdAAyGkWllzth7KHZe4zCoICNr3sdzxfmMvZzhYo/edit?usp=share_link)
 - [2차 프로세스](https://docs.google.com/document/d/1xRl7jvD2D0YRw52dGKawLCe4UdmWvBEzkuReJnj1Ggs/edit?usp=sharing)
 - [3차 프로세스](https://docs.google.com/document/d/1cicCTDoU5wSGKNh2eQ3zqHwVIgsqgEEHqEGrbdELAQU/edit?usp=share_link)
 - [중간발표자료](https://docs.google.com/presentation/d/1x4Q1G8w-2wpBMtshDAtTIDW0fHK6rAvB/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true)

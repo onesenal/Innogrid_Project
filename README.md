@@ -58,7 +58,7 @@ Kubernetes DevSecOps Toolchain Service란?
   따라서 업무 프로세스의 효율을 높일 수 있습니다. 
 ```
 #### Organization
-[![](https://drive.google.com/drive/folders/1iJnk1NWN4aBdt-64Utdtn-bMzqzOejzW)](https://drive.google.com/drive/folders/1iJnk1NWN4aBdt-64Utdtn-bMzqzOejzW)
+[![](https://drive.google.com/drive/folders/1iJnk1NWN4aBdt-64Utdtn-bMzqzOejzW)]
 
 #### Documents
 !일정사진 추가

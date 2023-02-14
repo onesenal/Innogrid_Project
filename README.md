@@ -6,7 +6,7 @@
 
 ## Contents:
   - [Outline](#Outline)
-      - [Intro](#Intro-)
+      - [Intro](#Intro)
       - [Documents](#Documents-)
       - [Process](#Process-)
       - [Result](#Result-)

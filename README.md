@@ -27,7 +27,7 @@ Kubernetes DevSecOps Toolchain Service란?
 ![](https://github.com/onesenal/Innogrid_Project/blob/main/Picture/Organization01.PNG)
 
 #### Process
-!일정사진 추가
+![](https://github.com/onesenal/Innogrid_Project/blob/main/Picture/Schedule.PNG)
 기간 | 작업
 :-------------: | :-------------:
 1주차  | 주제 선정

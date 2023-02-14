@@ -21,10 +21,10 @@ Kubernetes DevSecOps Toolchain Service란?
   따라서 업무 프로세스의 효율을 높일 수 있습니다. 
 ```
 #### Architecture
-![](https://github.com/onesenal/Innogrid_Project/blob/main/Architecture01.png)
+![](https://github.com/onesenal/Innogrid_Project/blob/main/Picture/Architecture.PNG)
 
 #### Organization
-![](https://github.com/onesenal/Innogrid_Project/blob/main/Organization01.PNG)
+![](https://github.com/onesenal/Innogrid_Project/blob/main/Picture/Organization01.PNG)
 
 #### Process
 !일정사진 추가

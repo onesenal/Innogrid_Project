@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: django-deploy
+  labels:
+    app: django-deploy
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: django-deploy
+  template:
+    metadata:
+      labels:
+        app: django-deploy
+    spec:
+      containers:
+      - name: django-deploy
+        image: core.innogrid.duckdns.org/innogrid/django:22
+        ports:
+        - containerPort: 6666
+          protocol: TCP
+        imagePullPolicy: Always
+      imagePullSecrets:
+      - name: docker-secret

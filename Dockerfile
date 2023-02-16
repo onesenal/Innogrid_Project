@@ -1,4 +1,5 @@
 FROM python:3.9-slim
+HEALTHCHECK NONE
 WORKDIR /mysite/
 COPY requirements.txt .
 RUN apt update

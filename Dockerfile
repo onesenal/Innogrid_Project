@@ -5,6 +5,7 @@ COPY requirements.txt .
 RUN apt update
 RUN apt install python-dev libmariadb-dev gcc nginx -y
 RUN pip3 install -r requirements.txt --no-cache-dir
+run npm install & npm run build
 
 COPY ./mysite/ .
 COPY ./nginx-mysite /etc/nginx/sites-available/nginx-mysite

@@ -17,7 +17,7 @@ node {
 	    -o "./report/"
 	    -s "." 
 	    -f "ALL"
-	    --prettyPrint""", odcInstallation: 'OWASP-Dependency-check'
+	    --disableYarnAudit --prettyPrint""", odcInstallation: 'OWASP-Dependency-check'
 	    
 	dependencyCheckPublisher pattern: 'report/dependency-check-report.xml'
   }

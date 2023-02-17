@@ -12,14 +12,14 @@ node {
       dockerfile = path + "/Dockerfile"
       anchorefile = path + "/anchore_images"
     }
-    stage('OWASP Dependency-Check Vulnerabilities ') {
+    stage('OWASP Dependency-Check Vulnerabilities') {
     	dependencyCheck additionalArguments: """
 	    -o "./report/"
-	    --scan "./" 
+	    -s "./" 
 	    -f "ALL"
-	    --disableYarnAudit --prettyPrint""", odcInstallation: 'OWASP-Dependency-check'
-	    
-	dependencyCheckPublisher pattern: 'report/dependency-check-report.xml'
+	    --prettyPrint
+	    --disableYarnAudit""", odcInstallation: 'OWASP-Dependency-check'
+	    dependencyCheckPublisher pattern: 'report/dependency-check-report.xml'
   }
     stage('SonarQube analysis') {
         def scannerHome = tool 'sonarqube';

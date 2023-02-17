@@ -13,24 +13,14 @@ node {
       anchorefile = path + "/anchore_images"
     }
     stage('OWASP Dependency-Check Vulnerabilities ') {
-    tools {
-       nodejs "node8"
-       dependency-check "vulnerability5"
-    }
-   stages {
-       stage('Install Deps') {
-        steps {
-            //Install dependecies
-            sh 'yarn install'
-        }
-      }
-    dependencyCheck additionalArguments: """
+    	dependencyCheck additionalArguments: """
 	    -s "." 
 	    -f "ALL"
 	    -o "./report/"
 	    --prettyPrint
 	    --disableYarnAudit""", odcInstallation: 'OWASP Dependency-check'
-	    dependencyCheckPublisher pattern: 'report/dependency-check-report.xml'
+	    
+	dependencyCheckPublisher pattern: 'report/dependency-check-report.xml'
   }
     stage('SonarQube analysis') {
         def scannerHome = tool 'sonarqube';

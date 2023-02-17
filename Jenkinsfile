@@ -15,10 +15,9 @@ node {
     stage('OWASP Dependency-Check Vulnerabilities') {
     	dependencyCheck additionalArguments: """
 	    -o "./report/"
-	    -s "path/**/*" 
+	    -s "." 
 	    -f "ALL"
-	    --disableYarnAudit
-	    --prettyPrint""", odcInstallation: 'OWASP-Dependency-check'
+	    --disableYarnAudit""", odcInstallation: 'OWASP-Dependency-check'
 	    dependencyCheckPublisher pattern: 'report/dependency-check-report.xml'
   }
     stage('SonarQube analysis') {

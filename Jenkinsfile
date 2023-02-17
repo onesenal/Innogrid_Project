@@ -13,7 +13,6 @@ node {
       anchorefile = path + "/anchore_images"
     }
     stage('OWASP Dependency-Check Vulnerabilities ') {
-	sh 'npm install --package-lock'
     	dependencyCheck additionalArguments: """
 	    -o "./report/"
 	    -s "./" 

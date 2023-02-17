@@ -17,8 +17,7 @@ node {
 	    -o "./report/"
 	    -s "." 
 	    -f "ALL"
-	    --prettyPrint
-	    --disableYarnAudit""", odcInstallation: 'OWASP-Dependency-check'
+	    --prettyPrint""", odcInstallation: 'OWASP-Dependency-check'
 	    dependencyCheckPublisher pattern: 'report/dependency-check-report.xml'
   }
     stage('SonarQube analysis') {

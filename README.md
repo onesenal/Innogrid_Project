@@ -2,7 +2,7 @@
 
  프로젝트명 | 기술문서 | 발표자료 | Git Repository |프로젝트 기간 
 :-------------: | :-------------: | :-------------: | :-------------: | :-------------:
- Kubernetes DevSecOps Toolchain Service | [Click](https://docs.google.com/document/d/1o6YaBrFl9ouEKxEBeTSaunQ44BkN39gFtcnx9rqwdEA/edit?usp=sharing) | [Click](https://www.notion.so/Main-Page-fe35c46b02d84682b73b5a394b44182f) | [Click](https://github.com/onesenal/Innogrid_Project.git) | 23.01.01~23.02.27
+ Kubernetes DevSecOps Toolchain Service | [Click](https://docs.google.com/document/d/1o6YaBrFl9ouEKxEBeTSaunQ44BkN39gFtcnx9rqwdEA/edit?usp=sharing) | [Click](https://docs.google.com/presentation/d/1GLuxI_fw9zpWJB_8srKz1OQcm_dco2Up/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | [Click](https://github.com/onesenal/Innogrid_Project.git) | 23.01.01~23.02.27
 
 ## Contents:
   - [Intro](#Intro)
@@ -51,7 +51,7 @@ Google Docs  | [3차 프로세스](https://docs.google.com/document/d/1cicCTDoU5
 PowerPoint  | [중간발표자료](https://docs.google.com/presentation/d/1x4Q1G8w-2wpBMtshDAtTIDW0fHK6rAvB/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 중간발표 문서입니다.
 Google Docs  | [시연영상]() | 프로젝트 시연영상 입니다.
 Google Docs  | [기술문서](https://docs.google.com/document/d/1o6YaBrFl9ouEKxEBeTSaunQ44BkN39gFtcnx9rqwdEA/edit?usp=sharing) | 프로젝트 기술문서 입니다.
-Google Docs  | [최종발표자료](https://docs.google.com/presentation/d/15syD-Y8lPkqkOD9CTaQZo1ekZ5DfNrBs/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 최종발표 문서입니다.
+Google Docs  | [최종발표자료](https://docs.google.com/presentation/d/1GLuxI_fw9zpWJB_8srKz1OQcm_dco2Up/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 최종발표 문서입니다.
 
 #### Results
 아래의 링크에서 결과물을 확인할 수 있습니다.

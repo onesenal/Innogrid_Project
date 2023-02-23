@@ -45,13 +45,13 @@ Kubernetes DevSecOps Toolchain Service란?
 유형 | 파일 | 파일내용
 :-------------: | :-------------: | :-------------:
 이미지  | [구성도](https://drive.google.com/file/d/1Ze-LKVUij8m3b0f4SDvuXyMrpzjQ6pEk/view?usp=share_link) | 서비스 전체 구성도
-Google Docs  | [1차 프로세스](https://docs.google.com/document/d/1l7MFdAAyGkWllzth7KHZe4zCoICNr3sdzxfmMvZzhYo/edit?usp=share_link)  | 1차 프로세스 순서를 나타낸 문서입니다.
-Google Docs  |  [2차 프로세스](https://docs.google.com/document/d/1xRl7jvD2D0YRw52dGKawLCe4UdmWvBEzkuReJnj1Ggs/edit?usp=sharing) | 2차 프로세스 순서를 나타낸 문서입니다.
-Google Docs  | [3차 프로세스](https://docs.google.com/document/d/1cicCTDoU5wSGKNh2eQ3zqHwVIgsqgEEHqEGrbdELAQU/edit?usp=share_link) | 3차 프로세스 순서를 나타낸 문서입니다.
-PowerPoint  | [중간발표자료](https://docs.google.com/presentation/d/1x4Q1G8w-2wpBMtshDAtTIDW0fHK6rAvB/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 중간발표 문서입니다.
+Google Docs  | [1차 프로세스](https://docs.google.com/document/d/1YoGmD8ao2t2eF31d7k_xaE8fVgv_-1NmqM1CZYCmbD8/edit?usp=sharing)  | 1차 프로세스 순서를 나타낸 문서입니다.
+Google Docs  |  [2차 프로세스](https://docs.google.com/document/d/1CeN-rS8T1WJPMhbn7SdLYWGFwfADrmJU9Dot5aS8wNs/edit?usp=sharing) | 2차 프로세스 순서를 나타낸 문서입니다.
+Google Docs  | [3차 프로세스](https://docs.google.com/document/d/1R-JGsCJHW9pYHhCzFuf4_s8DyUEW-pFUeXa1wmH7c3M/edit?usp=sharing) | 3차 프로세스 순서를 나타낸 문서입니다.
+PowerPoint  | [중간발표자료](https://docs.google.com/presentation/d/1nrKKaHC6bsTkFoTbVv_Goiae0NSKi4J_/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 중간발표 문서입니다.
 Google Docs  | [시연영상]() | 프로젝트 시연영상 입니다.
-Google Docs  | [기술문서](https://docs.google.com/document/d/1o6YaBrFl9ouEKxEBeTSaunQ44BkN39gFtcnx9rqwdEA/edit?usp=sharing) | 프로젝트 기술문서 입니다.
-PowerPoint  | [최종발표자료](https://docs.google.com/presentation/d/1GLuxI_fw9zpWJB_8srKz1OQcm_dco2Up/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 최종발표 문서입니다.
+Google Docs  | [기술문서](https://docs.google.com/document/d/1f5zGth5kpKdIX1ri8JHHl7b1yAiJf89tJusx2lb1FrY/edit?usp=sharing) | 프로젝트 기술문서 입니다.
+PowerPoint  | [최종발표자료](https://docs.google.com/presentation/d/1zeE-mIpmZf5yDFVkRtWjoSyRHjiojC5t/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 최종발표 문서입니다.
 
 #### Results
 아래의 링크에서 결과물을 확인할 수 있습니다.

@@ -54,6 +54,7 @@ Google Docs  | [기술문서](https://docs.google.com/document/d/1f5zGth5kpKdIX1
 PowerPoint  | [최종발표자료](https://docs.google.com/presentation/d/1zeE-mIpmZf5yDFVkRtWjoSyRHjiojC5t/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 최종발표 문서입니다.
 
 #### Results
+![](https://github.com/onesenal/Innogrid_Project/blob/main/Video/Innogrid_Porject.gif)
 아래의 링크에서 결과물을 확인할 수 있습니다.
 - [홈페이지](https://django.innogrid.duckdns.org)
 - [모니터링](http://monitor.innogrid.duckdns.org)

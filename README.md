@@ -49,12 +49,12 @@ Google Docs  | [1차 프로세스](https://docs.google.com/document/d/1YoGmD8ao2
 Google Docs  |  [2차 프로세스](https://docs.google.com/document/d/1CeN-rS8T1WJPMhbn7SdLYWGFwfADrmJU9Dot5aS8wNs/edit?usp=sharing) | 2차 프로세스 순서를 나타낸 문서입니다.
 Google Docs  | [3차 프로세스](https://docs.google.com/document/d/1R-JGsCJHW9pYHhCzFuf4_s8DyUEW-pFUeXa1wmH7c3M/edit?usp=sharing) | 3차 프로세스 순서를 나타낸 문서입니다.
 PowerPoint  | [중간발표자료](https://docs.google.com/presentation/d/1nrKKaHC6bsTkFoTbVv_Goiae0NSKi4J_/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 중간발표 문서입니다.
-Google Docs  | [시연영상](https://github.com/onesenal/Innogrid_Project/blob/main/Video/Innogrid_Porject.gif) | 프로젝트 시연영상 입니다.
+Google Docs  | [시연영상](https://github.com/onesenal/Innogrid_Project/blob/main/Video/Innogrid_Porject00.gif) | 프로젝트 시연영상 입니다.
 Google Docs  | [기술문서](https://docs.google.com/document/d/1f5zGth5kpKdIX1ri8JHHl7b1yAiJf89tJusx2lb1FrY/edit?usp=sharing) | 프로젝트 기술문서 입니다.
 PowerPoint  | [최종발표자료](https://docs.google.com/presentation/d/1zeE-mIpmZf5yDFVkRtWjoSyRHjiojC5t/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 최종발표 문서입니다.
 
 #### Results
-![](https://github.com/onesenal/Innogrid_Project/blob/main/Video/Innogrid_Porject.gif)
+![](https://github.com/onesenal/Innogrid_Project/blob/main/Video/Innogrid_Porject00.gif)
 아래의 링크에서 결과물을 확인할 수 있습니다.
 - [홈페이지](https://django.innogrid.duckdns.org)
 - [모니터링](http://monitor.innogrid.duckdns.org)

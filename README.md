@@ -55,11 +55,6 @@ PowerPoint  | [최종발표자료](https://docs.google.com/presentation/d/1zeE-m
 
 #### Results
 ![](https://github.com/onesenal/Innogrid_Project/blob/main/Video/Innogrid_Porject00.gif)
-<br>아래의 링크에서 결과물을 확인할 수 있습니다.
-- [홈페이지](https://django.innogrid.duckdns.org)
-- [모니터링](http://monitor.innogrid.duckdns.org)
-- [로깅](http://logging.innogrid.duckdns.org)
-- [발표영상]() | 2023.02.27 업데이트 예정
 
 #### Feedback
 번호 | 유형 | 문제 | 추후 과제
